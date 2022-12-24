@@ -1,4 +1,21 @@
-body {
-	background-color: #e5e7eb;
-	font-family: Arial, Helvetica, sans-serif;
+:root {
+	--black: #171a21;
+	--light-blue: #66c0f4;
+	--dark-blue: #1b2838;
+	--mid-blue: #2a475e;
+	--gray: #c7d5e0;
+}
+
+* {
+	background-color: var(--dark-blue);
+	color: var(--gray);
+}
+
+header,
+footer {
+	background-color: var(--mid-blue);
+}
+
+.logo {
+	border-radius: 3rem;
 }
