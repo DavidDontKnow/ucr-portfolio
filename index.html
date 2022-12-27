@@ -25,15 +25,18 @@
 	</header>
 
 	<main>
-		<section class="about">
+		<section id="about">
+			<h1>David Gutierrez Portfolio</h1>
 			<img src="./assets/img/Headshot.jpg" width="200px" alt="David's photo">
+			<h2>About David</h2>
 			<p class="about-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nihil distinctio
 				quidem magnam explicabo natus repellendus praesentium, inventore aperiam voluptate consequatur saepe
 				sequi sapiente dolorem perspiciatis, labore ab. Perspiciatis, aspernatur.
 			</p>
 		</section>
 
-		<section class="projects">
+		<section id="projects">
+			<h3>Projects</h3>
 			<div class="card">
 				<h3 class="card-title">Title</h3>
 				<img src="https://via.placeholder.com/150" alt="Snapshot of Project" class="card-img">
@@ -42,6 +45,21 @@
 					Something small enough to escape casual notice.
 				</details>
 			</div>
+		</section>
+
+		<section>
+			<h4>Contact</h4>
+			<form>
+				<label for="fname">First name:</label><br>
+				<input type="text" id="fname" name="fname"><br>
+				<label for="lname">Last name:</label><br>
+				<input type="text" id="lname" name="lname"><br>
+				<label for="email">Email:</label><br>
+				<input type="email" name="email" id="email"><br>
+				<label for="message">Message:</label><br>
+				<textarea name="message" id="message" cols="25" rows="5"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
 		</section>
 	</main>
 
