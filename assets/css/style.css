@@ -202,6 +202,17 @@ footer {
 	min-width: 95%;
 }
 
+#about,
+#projects {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.card {
+	min-width: 350px;
+	min-height: 250px;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {}
 
