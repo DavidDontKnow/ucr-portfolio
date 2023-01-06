@@ -1,5 +1,7 @@
 # ucr-portfolio
 
+A portfolio of work to showcase my skills and talents to employers looking to fill a part-time or full-time position.
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
